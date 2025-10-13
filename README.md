@@ -1,6 +1,4 @@
-# !/bin/bash
-
-# Setup script for car dataset processing
+# Scripts for car dataset processing
 
 # 1. Install required dependencies
 
