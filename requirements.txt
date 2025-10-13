@@ -1,0 +1,11 @@
+torch 
+torchvision 
+transformers
+pandas 
+pillow 
+tqdm
+rembg
+bitsandbytes
+accelerate
+git+https://github.com/openai/CLIP.git
+git+https://github.com/shunk031/simple-aesthetics-predictor.git
