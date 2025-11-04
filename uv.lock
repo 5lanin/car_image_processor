@@ -210,6 +210,7 @@ dependencies = [
     { name = "datasets" },
     { name = "huggingface-hub" },
     { name = "ipywidgets" },
+    { name = "itables" },
     { name = "pandas" },
     { name = "pillow" },
     { name = "rembg" },
@@ -228,6 +229,7 @@ requires-dist = [
     { name = "datasets", specifier = ">=4.3.0" },
     { name = "huggingface-hub", specifier = ">=0.35.3" },
     { name = "ipywidgets", specifier = ">=8.1.8" },
+    { name = "itables", specifier = ">=2.5.2" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "pillow", specifier = ">=11.3.0" },
     { name = "rembg", specifier = ">=2.0.67" },
@@ -664,6 +666,20 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/4c/ae/c5ce1edc1afe042eadb445e95b0671b03cee61895264357956e61c0d2ac0/ipywidgets-8.1.8.tar.gz", hash = "sha256:61f969306b95f85fba6b6986b7fe45d73124d1d9e3023a8068710d47a22ea668", size = 116739, upload-time = "2025-11-01T21:18:12.393Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/56/6d/0d9848617b9f753b87f214f1c682592f7ca42de085f564352f10f0843026/ipywidgets-8.1.8-py3-none-any.whl", hash = "sha256:ecaca67aed704a338f88f67b1181b58f821ab5dc89c1f0f5ef99db43c1c2921e", size = 139808, upload-time = "2025-11-01T21:18:10.956Z" },
+]
+
+[[package]]
+name = "itables"
+version = "2.5.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "ipython" },
+    { name = "numpy" },
+    { name = "pandas" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/02/a2/4652db589b5767ead6d1dd8016e94e6adc5ec9e9552ccd17cf1886900b04/itables-2.5.2.tar.gz", hash = "sha256:ec34bbacfbf4305570ea75b36970de442f924126f3701c323a5a46018de84c8a", size = 2356416, upload-time = "2025-09-02T20:14:41.722Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e0/96/2b99f42b52e8a6b3eaca872eec43de6eabf6fbcd3f85363b82b749b68f3f/itables-2.5.2-py3-none-any.whl", hash = "sha256:a26b5a5fad079db7eee83ff720fb98395f7327fddcb7af84d10e1165a139acf2", size = 2388338, upload-time = "2025-09-02T20:14:39.632Z" },
 ]
 
 [[package]]
